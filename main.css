@@ -4,8 +4,7 @@
 }
 .ss{
     border: none;
-    font-family: "Comic Sans MS", Times, serif;
-    
+    font-family: "Comic Sans MS", Times, serif;    
 }
 .fleft{
     float: left;
@@ -42,4 +41,26 @@ body{
 }
 .ctext{
     text-align: center;
+}
+
+
+/* Media Query*/
+/* Mobile Screen*/
+@media only screen and (max-width:768px){
+  .fleft{
+            width: 100%;
+            text-align: center;
+            float: none;
+        }
+  .rleft{
+            float: none;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+        }
+    .sh{width:100%;}
+    .ins{width:90%;}
+    .adv{width:100%;}
+    .ctext{width:100%;}
+    .full{width:100%;}
 }
